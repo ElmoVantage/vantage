@@ -1,0 +1,36 @@
+# Secrets — NEVER commit these
+.env
+*.env
+
+# License
+license_cache.json
+
+# Database & runtime state
+tracker.db
+tracker_*.db
+sync_state.json
+mileage_state.json
+
+# Backups & exports
+backups/
+exports/
+
+# PyInstaller build output
+build/
+dist/
+*.spec.bak
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.suo
+
+# Windows
+Thumbs.db
+desktop.ini
